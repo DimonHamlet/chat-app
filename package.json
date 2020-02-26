@@ -1,0 +1,29 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app just for fun",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js,html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimonHamlet/chat-app.git"
+  },
+  "author": "Dmytro Havrysh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimonHamlet/chat-app/issues"
+  },
+  "homepage": "https://github.com/DimonHamlet/chat-app#readme",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
